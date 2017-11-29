@@ -1,8 +1,4 @@
 *.DS_Store
 .idea/
 .projects
-gdata/
-geopy/
-atom/
 npm-debug.log
-app.yaml
