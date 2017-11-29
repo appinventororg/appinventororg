@@ -1,2 +1,2 @@
-appinventororg2
+appinventororg
 ==============
