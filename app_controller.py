@@ -3577,7 +3577,6 @@ class MoleMashTextHandler(webapp.RequestHandler):
 
 class JBridgeIntroHandler(webapp.RequestHandler):
      def get(self, *args):
-        # user status
         userStatus = UserStatus()
         userStatus = userStatus.getStatus(self.request.uri)
 
