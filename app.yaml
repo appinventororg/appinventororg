@@ -11,17 +11,17 @@ application: appinventororgtesting
 version: test
 runtime: python27
 api_version: 1
-threadsafe: no
+threadsafe: false
 
 handlers:
 - url: /admin/.*
   script: app_controller.py
   login: admin
-- url: /CourseSystem/Editor/assets
-  static_dir: CourseSystem/Editor/assets
-  login: admin
 - url: /assets/admin
   static_dir: assets/admin
+  login: admin
+- url: /CourseSystem/Editor/assets
+  static_dir: CourseSystem/Editor/assets
   login: admin
 - url: /apps
   static_dir: apps
